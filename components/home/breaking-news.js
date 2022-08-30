@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 const BreakingNews = ({ newsList }) => {
@@ -10,7 +11,8 @@ const BreakingNews = ({ newsList }) => {
       <div className="heading">News</div>
       <ul className="news-ticker-h">
         {newsList.map(news => (
-          <li key={news.id}>
+          <li className='flex items-center gap-4' key={news.id}>
+            <Image src={"/logo.png"} height={20} width={20} layout={"fixed"} />
             <Link href={`${news.link}`}>
               <a>{news.title}</a>
             </Link>
