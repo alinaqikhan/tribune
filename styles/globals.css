@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,6 +25,7 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
@@ -33,4 +36,8 @@ a {
   border: 2px solid transparent;
   border-bottom-color: white;
   opacity: 1;
+}
+
+.font-stylish {
+  font-family: 'Alegreya', serif;
 }
