@@ -1,3 +1,4 @@
 import Jumbotron from "./jumbotron";
+import BreakingNews from "./breaking-news";
 
-export { Jumbotron };
+export { Jumbotron, BreakingNews };
