@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Jumbotron = () => {
   return (
-    <div>
+    <div className='select-none'>
       <div className='flex items-center justify-center gap-3'>
         <Image src={'/logo.png'} width={60} height={60} />
         <p className="font-stylish text-2xl font-semibold">UET Tribune</p>

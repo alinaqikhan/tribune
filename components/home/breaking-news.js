@@ -7,7 +7,7 @@ const BreakingNews = ({ newsList }) => {
 
   return (
     <div className="ticker-wrapper-h my-4">
-      <div className="heading">Latest</div>
+      <div className="heading">News</div>
       <ul className="news-ticker-h">
         {newsList.map(news => (
           <li key={news.id}>
