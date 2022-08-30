@@ -1,3 +1,3 @@
-import { NavigationBar } from "./layouts";
+import { NavigationBar, Layout } from './layouts';
 
-export { NavigationBar };
+export { NavigationBar, Layout };

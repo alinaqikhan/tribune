@@ -1,3 +1,4 @@
 import NavigationBar from './navigation-bar';
+import Layout from './layout';
 
-export { NavigationBar };
+export { NavigationBar, Layout };

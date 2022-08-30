@@ -2,14 +2,9 @@ import { NavigationBar } from "../components";
 
 const HomePage = props => {
     return (
-        <>
-            <header>
-              <NavigationBar />
-            </header>
-            <main>
-              
-            </main>
-        </>
+        <h2>
+           Home Page
+        </h2>
     );
 };
 

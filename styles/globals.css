@@ -32,8 +32,11 @@ a {
   }
 }
 
+.nav-link {
+  border: 1px solid transparent;
+}
+
 .active-nav-link {
-  border: 2px solid transparent;
   border-bottom-color: white;
   opacity: 1;
 }
