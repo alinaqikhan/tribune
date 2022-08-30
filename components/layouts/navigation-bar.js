@@ -19,7 +19,7 @@ const NAVIGATION_LINKS = [
 
 const NavigationBar = props => {
   return (
-    <nav className="bg-black h-14 px-2 md:px-6 lg:px-12">
+    <nav className="navbar-bg h-14 px-2 md:px-6 lg:px-12">
       <div className="h-full flex items-center justify-between lg:hidden">
         <IconButton aria-label="Menu">
           <MenuIcon />

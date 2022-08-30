@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -32,6 +32,12 @@ a {
   }
 }
 
+.navbar-bg {
+  background-color: #2096cc;
+  box-shadow: 0 0 2px #ccc;
+  z-index: 99999;
+}
+
 .nav-link {
   border: 1px solid transparent;
 }
@@ -43,4 +49,25 @@ a {
 
 .font-stylish {
   font-family: 'Alegreya', serif;
+}
+
+.rulers {
+  display: flex;
+  flex-direction: row;
+}
+
+.rulers:before,
+.rulers:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+
+.rulers:before {
+  margin-right: 10px
+}
+
+.rulers:after {
+  margin-left: 10px
 }
