@@ -33,7 +33,7 @@ a {
 }
 
 .navbar-bg {
-  background-color: #2096cc;
+  background-image: linear-gradient(to right top, #2196ce, #2095ce, #1f95ce, #1f94cd, #1e93cd, #1f93cd, #1f94ce, #2094ce, #2295cf, #2497d0, #2598d0, #2799d1);
   box-shadow: 0 0 2px #ccc;
   z-index: 99999;
 }
