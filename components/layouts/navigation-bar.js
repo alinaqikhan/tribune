@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { MenuIcon } from '../icons';
 import { NavLink } from './nav-link';
 
@@ -43,7 +44,10 @@ const NavigationBar = props => {
             {NAVIGATION_LINKS.map(link => <NavLink key={link.id} title={link.title} href={link.href} />)}
         </ul>
         <div>
-          <IconButton>
+          <IconButton aria-label='Facebook' onClick={()=> window.open(
+                'https://www.facebook.com/uettribune/',
+                '_self'
+              )}>
             <FacebookIcon style={{ color: 'white' }} />
           </IconButton>
           <IconButton
@@ -57,11 +61,23 @@ const NavigationBar = props => {
           >
             <WhatsAppIcon style={{ color: 'white' }} />
           </IconButton>
-          <IconButton>
+          <IconButton aria-label='Instagram' onClick={()=> window.open(
+                'https://www.instagram.com/uettribune',
+                '_self'
+              )}>
             <InstagramIcon style={{ color: 'white' }} />
           </IconButton>
-          <IconButton>
+          <IconButton aria-label='Twitter' onClick={()=> window.open(
+                'https://twitter.com/uettribune',
+                '_self'
+              )}>
             <TwitterIcon style={{ color: 'white' }} />
+          </IconButton>
+          <IconButton aria-label='Twitter' onClick={()=> window.open(
+                'https://pk.linkedin.com/company/uettribune',
+                '_self'
+              )}>
+            <LinkedInIcon style={{ color: 'white' }} />
           </IconButton>
         </div>
       </div>
