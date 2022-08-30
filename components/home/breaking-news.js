@@ -12,7 +12,7 @@ const BreakingNews = ({ newsList }) => {
         {newsList.map(news => (
           <li key={news.id}>
             <Link href={`${news.link}`}>
-              <a href="">{news.title}</a>
+              <a>{news.title}</a>
             </Link>
           </li>
         ))}
