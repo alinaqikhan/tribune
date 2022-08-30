@@ -28,3 +28,9 @@ a {
     background: black;
   }
 }
+
+.active-nav-link {
+  border: 2px solid transparent;
+  border-bottom-color: white;
+  opacity: 1;
+}
