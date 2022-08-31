@@ -32,7 +32,7 @@ const NavigationBar = props => {
   };
 
   return (
-    <nav className="navbar-bg h-14 px-2 md:px-6 lg:px-12">
+    <nav className="navbar-bg h-14 px-2 md:px-6 lg:px-12" role={"navigation"}>
       <div className="h-full flex items-center justify-between lg:hidden relative">
         <IconButton aria-label="Menu" onClick={()=>setToggle(toggle=>!toggle)}>
           {toggle === false? <MenuIcon />:<CloseOutlinedIcon style={{height:30,width:30,color:"white"}} />}
