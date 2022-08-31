@@ -12,7 +12,7 @@ const BreakingNews = ({ newsList }) => {
       <ul className="news-ticker-h">
         {newsList.map(news => (
           <li className='flex items-center gap-4' key={news.id}>
-            <Image src={"/logo.png"} height={20} width={20} layout={"fixed"} />
+            <Image src={"/logo.png"} alt={"Tribune Logo"} height={20} width={20} layout={"fixed"} />
             <Link href={`${news.link}`}>
               <a>{news.title}</a>
             </Link>

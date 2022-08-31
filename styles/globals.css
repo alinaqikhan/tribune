@@ -35,7 +35,9 @@ a {
 .navbar-bg {
   /* background-image: linear-gradient(to right top, #2196ce, #2095ce, #1f95ce, #1f94cd, #1e93cd, #1f93cd, #1f94ce, #2094ce, #2295cf, #2497d0, #2598d0, #2799d1); */
   background-color: #038ac9;
-  box-shadow: 0 0 2px #ccc;
+  /* box-shadow: 0 0 2px #ccc; */
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
   z-index: 99999;
 }
 

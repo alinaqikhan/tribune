@@ -38,7 +38,7 @@ const NavigationBar = props => {
           {toggle === false? <MenuIcon />:<CloseOutlinedIcon style={{height:30,width:30,color:"white"}} />}
         </IconButton>
         <Link href={'/'}>
-          <a className="text-white font-medium text-lg">UET, Tribune</a>
+          <a className="text-white font-medium text-lg drop-shadow-2xl">UET, Tribune</a>
         </Link>
         <IconButton
           aria-label="WhatsApp"

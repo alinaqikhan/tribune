@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { BreakingNews, Jumbotron } from "../components";
 
 const DUMMY_NEWS_LIST = [
@@ -9,10 +10,18 @@ const DUMMY_NEWS_LIST = [
 
 const HomePage = props => {
     return (
+        <>
+        <Head>
+            <title>UET Tribune</title>
+            <meta name='description' content='UET Tribune - The Larget and Official Media Network of UET'/>
+            <link rel='icon' href='/favicon.ico' />
+        </Head>
+        
         <div>
            <Jumbotron />
            <BreakingNews newsList={DUMMY_NEWS_LIST} />
         </div>
+        </>
     );
 };
 
