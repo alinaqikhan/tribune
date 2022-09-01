@@ -54,7 +54,7 @@ const NavigationBar = props => {
       </div>
 
         {toggle && <div className='overlay' onClick={closeMenuHandler}>
-            <div className='w-4/6 h-full mobile-nav-menu'>
+            <div className='w-4/6 h-full z-50 relative mobile-nav-menu'>
             <ul className='flex flex-col px-5 py-7 text-black gap-5 h-full'>
             {NAVIGATION_LINKS.map(link => <NavLink key={link.id} title={link.title} href={link.href} />)}
         </ul>

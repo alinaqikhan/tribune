@@ -6,7 +6,7 @@ const Layout = props => {
         <header className='fixed w-full z-50 top-0 left-0'>
             <NavigationBar />
         </header>
-        <main className='py-14 mx-4 my-3 md:mx-8 md:my-5 lg:mx-12' role={"main"}>
+        <main role={"main"}>
             {props.children}
         </main>
         <footer>

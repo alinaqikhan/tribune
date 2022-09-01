@@ -17,7 +17,7 @@ const HomePage = props => {
             <link rel='icon' href='/favicon.ico' />
         </Head>
         
-        <div>
+        <div className="mx-4 md:mx-8 lg:mx-12 py-14 my-3 md:my-5">
            <Jumbotron />
            <BreakingNews newsList={DUMMY_NEWS_LIST} />
            <div className="grid grid-cols-1 gap-2 md:grid-cols-3 md:gap-3">
