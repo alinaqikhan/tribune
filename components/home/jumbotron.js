@@ -4,7 +4,7 @@ const Jumbotron = () => {
   return (
     <div className='select-none'>
       <div className='flex items-center justify-center gap-3'>
-        <Image src={'/logo.png'} alt={'UET Tribune Logo'} width={60} height={60} />
+        <Image src={'/logo.png'} alt={'UET Tribune Logo'} priority width={60} height={60} />
         <p className="font-stylish text-2xl font-semibold">UET Tribune</p>
       </div>
       <p className="font-stylish font-normal text-lg mt-2 text-center rulers">

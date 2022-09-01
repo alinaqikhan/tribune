@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Notifications = props => {
   return (
-    <section className="w-full bg-blue-400">
+    <section className="w-full">
       <FeaturedPost />
       <Divider className="m-3" />
       <Post />
@@ -35,6 +35,7 @@ const FeaturedPost = () => {
             alt="Featured Notification"
             width={350}
             height={200}
+            priority
             layout={'responsive'}
             objectFit={'contain'}
           />
