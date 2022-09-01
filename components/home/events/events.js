@@ -40,7 +40,7 @@ const EventPost = () => {
             <p className="text-sm truncate-3 hover:underline">
             Volunteers are required for Fund Raising Camp for Flood Victims at UET Lahore (Main Library). There would be 3 shifts of four hours each to work for. Students can choose day and time slot as per their availability. All the students are encouraged to step forward to participate in this noble cause. 
             </p>
-            <p className="tag mt-2 pl-1 text-gray-900">Event</p>
+            <p className="tag my-2 pl-1 text-gray-900">Event</p>
           </div>
         </a>
       </Link>
