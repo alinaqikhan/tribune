@@ -62,7 +62,7 @@ const Post = () => {
       <a>
         <div className="w-full overflow-hidden m-2">
           <h4 className="font-semibold">Postgraduate Admissions 2022</h4>
-          <div className="m-2 flex gap-2">
+          <div className="my-2 flex gap-2">
             <div className='w-1/4 overflow-hidden'>
               <Image src={'/news-2.jpg'} width={100} height={75} layout={'responsive'} />
             </div>
@@ -75,7 +75,7 @@ const Post = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quibusdam reiciendis ipsa, suscipit dignissimos laudantium odio ab necessitatibus id odit nam illum consectetur ipsam, exercitationem vel voluptatibus cupiditate, dolorum fugiat.
             </p>
           </div>
-          <p className="tag mt-2 pl-1 text-gray-900">Notification</p>
+          <p className="tag mt-3 pl-1 text-gray-900">Notification</p>
         </div>
       </a>
     </Link>
