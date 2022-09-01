@@ -172,3 +172,28 @@ a {
     width: 70;
   }
 }
+
+.truncate-5 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.truncate-3 {
+text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.tag {
+  border-left-width: .125rem;
+  border-color: red;
+  font-size: 12px;
+  font-weight: 500;
+}
