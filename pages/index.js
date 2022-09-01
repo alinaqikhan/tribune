@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { BreakingNews, Jumbotron } from "../components";
+import { BreakingNews, Jumbotron, Notifications, Events, Stories } from "../components";
 
 const DUMMY_NEWS_LIST = [
     { id: 1, title: "UET Lahore signs MoU with Total Parco Pakistan Ltd", link:"/events"},
@@ -20,6 +20,11 @@ const HomePage = props => {
         <div>
            <Jumbotron />
            <BreakingNews newsList={DUMMY_NEWS_LIST} />
+           <div className="grid grid-cols-1 gap-2 md:grid-cols-3 md:gap-3">
+            <Notifications />
+            <Events />
+            <Stories />
+           </div>
         </div>
         </>
     );

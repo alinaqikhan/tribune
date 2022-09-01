@@ -1,4 +1,4 @@
 import { NavigationBar, Layout } from './layouts';
-import { Jumbotron, BreakingNews } from './home';
+import { Jumbotron, BreakingNews, Notifications, Events, Stories } from './home';
 
-export { NavigationBar, Layout, Jumbotron, BreakingNews };
+export { NavigationBar, Layout, Jumbotron, BreakingNews, Notifications, Events, Stories };
