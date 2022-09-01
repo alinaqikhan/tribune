@@ -197,3 +197,7 @@ text-overflow: ellipsis;
   font-size: 12px;
   font-weight: 500;
 }
+
+.stories-top-border {
+  border-top: 4px solid #038ac9;
+}
