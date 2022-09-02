@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Stories = props => {
   return (
-    <section className="h-96 w-full">
+    <section className="w-full">
       <h2 className="stories-top-border m-2 font-bold text-gray-900 text-xl pt-1 md:text-center">
         Stories
       </h2>

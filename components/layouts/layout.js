@@ -1,3 +1,4 @@
+import Footer from './footer';
 import NavigationBar from './navigation-bar';
 
 const Layout = props => {
@@ -10,7 +11,7 @@ const Layout = props => {
             {props.children}
         </main>
         <footer>
-            
+            <Footer />
         </footer>
         </>
     );
