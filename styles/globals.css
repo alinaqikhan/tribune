@@ -225,3 +225,16 @@ text-overflow: ellipsis;
 .bg-off-white {
   background-color: #f5f5f7;
 }
+
+.bg-footer {
+  border-top: 1px solid #c8c8c8ca;
+  background-color: #fff;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #c8c8c8;
+}
+
+.bg-footer-like {
+  background-color: #f5f5f7;
+}
