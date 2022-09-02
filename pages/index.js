@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { BreakingNews, Jumbotron, Notifications, Events, Stories } from "../components";
+import { BreakingNews, Jumbotron, Notifications, Events, Stories, Videos } from "../components";
 
 const DUMMY_NEWS_LIST = [
     { id: 1, title: "UET Lahore signs MoU with Total Parco Pakistan Ltd", link:"/events"},
@@ -25,6 +25,7 @@ const HomePage = props => {
             <Events />
             <Stories />
            </div>
+           <Videos />
         </div>
         </>
     );

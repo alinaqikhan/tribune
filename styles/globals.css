@@ -211,6 +211,10 @@ text-overflow: ellipsis;
   border-top: 4px solid #038ac9;
 }
 
+.videos-top-border {
+  border-top: 4px solid red;
+}
+
 .avatar {
   border-radius: 50%;
 }
