@@ -4,7 +4,8 @@
       "id": 1,
       "name": "Khizar Sardar",
       "post": "President",
-      "photo_url": "/avatars/khizar.png"
+      "photo_url": "/avatars/khizar.png",
+      "priority": true
     },
     {
       "id": 2,
@@ -30,7 +31,8 @@
       "id": 5,
       "name": "Ali Naqi Khan",
       "post": "Head - Web Development",
-      "photo_url": "/avatars/ali.png"
+      "photo_url": "/avatars/ali.png",
+      "priority": true
     },
     {
       "id": 6,

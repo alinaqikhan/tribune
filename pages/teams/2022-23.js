@@ -25,6 +25,7 @@ const TribuneTeamPage = props => {
               name={member.name}
               src={member.photo_url}
               post={member.post}
+              priority={member.priority}
             />
           ))}
         </div>
@@ -40,6 +41,7 @@ const TribuneTeamPage = props => {
               name={member.name}
               src={member.photo_url}
               post={member.post}
+              priority={member.priority}
             />
           ))}
         </div>
