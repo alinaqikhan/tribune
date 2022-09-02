@@ -1,0 +1,158 @@
+{
+  "core": [
+    {
+      "id": 1,
+      "name": "Khizar Sardar",
+      "post": "President",
+      "photo_url": "/avatars/khizar.png"
+    },
+    {
+      "id": 2,
+      "name": "Hafsa Khan",
+      "post": "Vice President - Editors",
+      "photo_url": "/avatars/hafsa.png"
+    },
+    {
+      "id": 3,
+      "name": "Huzaifa Virk",
+      "post": "Vice President - Directors",
+      "photo_url": "/avatars/huzaifa.png"
+    },
+    {
+      "id": 4,
+      "name": "Talha Javaid",
+      "post": "Media Secretary",
+      "photo_url": "/avatars/talha.png"
+    }
+  ],
+  "directorsAndEditors": [
+    {
+      "id": 5,
+      "name": "Ali Naqi Khan",
+      "post": "Head - Web Development",
+      "photo_url": "/avatars/ali.png"
+    },
+    {
+      "id": 6,
+      "name": "Zoya Shahid",
+      "post": "Director - Creativity",
+      "photo_url": "/avatars/zoya.png"
+    },
+    {
+      "id": 7,
+      "name": "Javaria Aslam",
+      "post": "Director - Photography",
+      "photo_url": "/avatars/javaria.png"
+    },
+    {
+      "id": 8,
+      "name": "Abdullah Shahid",
+      "post": "Director - Management",
+      "photo_url": "/avatars/abdullah.png"
+    },
+    {
+      "id": 9,
+      "name": "Amina Sheikh",
+      "post": "Director - Anchoring",
+      "photo_url": "/avatars/amina.png"
+    },
+    {
+      "id": 10,
+      "name": "Faiza Hanif",
+      "post": "Director - Documentation",
+      "photo_url": "/avatars/faiza.png"
+    },
+    {
+      "id": 11,
+      "name": "Erij Fatima",
+      "post": "Director - Social Media",
+      "photo_url": "/avatars/erij.png"
+    },
+    {
+      "id": 12,
+      "name": "Tazeema Khan",
+      "post": "Director - Finance",
+      "photo_url": "/avatars/tazeema.png"
+    },
+    {
+      "id": 13,
+      "name": "Sana Naz",
+      "post": "Director - Vines",
+      "photo_url": "/avatars/sana.png"
+    },
+    {
+      "id": 14,
+      "name": "Saif Ullah",
+      "post": "Director - Procurement",
+      "photo_url": "/avatars/saif.png"
+    },
+    {
+      "id": 15,
+      "name": "Arisha Fatima",
+      "post": "Section Editor",
+      "photo_url": "/avatars/arisha.png"
+    },
+    {
+      "id": 16,
+      "name": "Ahmad Latif",
+      "post": "Media Editor",
+      "photo_url": "/avatars/ahmad.png"
+    },
+    {
+      "id": 17,
+      "name": "Habib Ur Rehman",
+      "post": "Sub Editor",
+      "photo_url": "/avatars/habib.png"
+    }
+  ],
+  "executives": [
+    {
+      "id": 18,
+      "name": "Muhammad Yahya",
+      "post": "Campus Coordinator",
+      "photo_url": "/avatars/yahya.png"
+    },
+    {
+      "id": 19,
+      "name": "Zara Masood",
+      "post": "Executive Member",
+      "photo_url": "/avatars/zara.png"
+    },
+    {
+      "id": 20,
+      "name": "Muhammad Imran",
+      "post": "Executive Member",
+      "photo_url": "/avatars/imran.png"
+    },
+    {
+      "id": 21,
+      "name": "Qasim Ali Maitla",
+      "post": "Executive Member",
+      "photo_url": "/avatars/qasim.png"
+    },
+    {
+      "id": 22,
+      "name": "Hafsa Aqeel",
+      "post": "Executive Member",
+      "photo_url": "/avatars/hafsa-aqeel.png"
+    },
+    {
+      "id": 23,
+      "name": "Ayesha Meraj",
+      "post": "Executive Member",
+      "photo_url": "/avatars/ayesha.png"
+    },
+    {
+      "id": 24,
+      "name": "Muhammad Alian",
+      "post": "Executive Member",
+      "photo_url": "/avatars/alian.png"
+    },
+    {
+      "id": 25,
+      "name": "Faraz Afzal",
+      "post": "Executive Member",
+      "photo_url": "/avatars/faraz.png"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import TeamCard from '../../components/teams/team-card';
+import teamData from '../../database/team2022-23.json';
 
 const TribuneTeamPage = props => {
   return (
@@ -11,53 +12,29 @@ const TribuneTeamPage = props => {
           Core Body
         </p>
         <div className="flex flex-wrap w-full justify-center items-center py-2 md:px-8 md:justify-start">
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
+          {teamData.core.map(member => (
+            <TeamCard
+              key={member.id}
+              name={member.name}
+              src={member.photo_url}
+              post={member.post}
+            />
+          ))}
         </div>
       </div>
       <div>
         <p className="apple-menu-bar p-4 py-3 md:px-8 lg:px-12 sticky top-14 left-0 right-0 z-10 pb-3 font-semibold bg-off-white">
-          Directors
+          Directors &amp; Editors
         </p>
         <div className="flex flex-wrap w-full justify-center items-center py-2 md:px-8 md:justify-start">
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
+          {teamData.directorsAndEditors.map(member => (
+            <TeamCard
+              key={member.id}
+              name={member.name}
+              src={member.photo_url}
+              post={member.post}
+            />
+          ))}
         </div>
       </div>
       <div>
@@ -65,26 +42,14 @@ const TribuneTeamPage = props => {
           Executives
         </p>
         <div className="flex flex-wrap w-full justify-center items-center py-2 md:px-8 md:justify-start">
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
-          <TeamCard
-            name={'Hafsa Khan'}
-            src={'/avatar.png'}
-            post={'Vice President - Editors'}
-          />
+          {teamData.executives.map(member => (
+            <TeamCard
+              key={member.id}
+              name={member.name}
+              src={member.photo_url}
+              post={member.post}
+            />
+          ))}
         </div>
       </div>
     </>
