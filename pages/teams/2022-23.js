@@ -18,7 +18,7 @@ const TribuneTeamPage = props => {
         <p className="apple-menu-bar p-4 py-3 md:px-8 lg:px-12 sticky top-14 left-0 right-0 z-10 pb-3 font-semibold bg-off-white">
           Core Body
         </p>
-        <div className="flex flex-wrap w-full justify-center items-center py-2 md:px-8 md:justify-start">
+        <div className="flex flex-wrap w-full justify-center items-center py-5 md:px-8 md:justify-start">
           {teamData.core.map(member => (
             <TeamCard
               key={member.id}
@@ -34,7 +34,7 @@ const TribuneTeamPage = props => {
         <p className="apple-menu-bar p-4 py-3 md:px-8 lg:px-12 sticky top-14 left-0 right-0 z-10 pb-3 font-semibold bg-off-white">
           Directors &amp; Editors
         </p>
-        <div className="flex flex-wrap w-full justify-center items-center py-2 md:px-8 md:justify-start">
+        <div className="flex flex-wrap w-full justify-center items-center py-5 md:px-8 md:justify-start">
           {teamData.directorsAndEditors.map(member => (
             <TeamCard
               key={member.id}
@@ -50,7 +50,7 @@ const TribuneTeamPage = props => {
         <p className="apple-menu-bar p-4 py-3 md:px-8 lg:px-12 sticky top-14 left-0 right-0 z-10 pb-3 font-semibold bg-off-white">
           Executives
         </p>
-        <div className="flex flex-wrap w-full justify-center items-center py-2 md:px-8 md:justify-start">
+        <div className="flex flex-wrap w-full justify-center items-center py-5 md:px-8 md:justify-start">
           {teamData.executives.map(member => (
             <TeamCard
               key={member.id}
