@@ -1,9 +1,16 @@
+import Head from 'next/head';
+
 import TeamCard from '../../components/teams/team-card';
 import teamData from '../../database/team2022-23.json';
 
 const TribuneTeamPage = props => {
   return (
     <>
+    <Head>
+      <title>Tribune Hierarchy 2022-23</title>
+      <meta name='description' content="UET Tribune's Hierarchy 2022-2023 including Core Body, Directors & Editors and Executive Members"/>
+      <link rel='icon' href='/favicon.ico' />
+    </Head>
       <h2 className="px-4 md:px-8 lg:px-12 font-bold text-xl md:text-2xl md:mb-0 pt-14 my-3 md:pb-3 md:my-4 drop-shadow-xl">
         Tribune Hierarchy 2022-2023
       </h2>
