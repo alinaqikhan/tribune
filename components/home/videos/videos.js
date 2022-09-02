@@ -2,9 +2,9 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Videos = props => {
   return (
-    <section className="w-full p-2">
-      <h2 className="videos-top-border font-bold text-gray-900 text-xl pt-1 md:text-center flex items-center gap-2">
-        <span> Videos </span>{' '}
+    <section className="w-full p-2 my-2">
+      <h2 className="videos-top-border mb-2 font-bold text-gray-900 text-xl pt-1 md:text-center flex items-center gap-2">
+        <span> Videos </span>
         <YouTubeIcon sx={{ width: 30, height: 30 }} color="error" />
       </h2>
       <div className="grid grid-cols-1 gap-2 md:grid-cols-3 md:gap-3">
