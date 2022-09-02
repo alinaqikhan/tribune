@@ -17,6 +17,7 @@ const NAVIGATION_LINKS = [
   { id: 3, title: 'Blogs', href: '/blogs' },
   { id: 4, title: 'About', href: '/about' },
   { id: 5, title: 'Contact', href: '/contact' },
+  { id: 6, title: 'Team', href: '/teams/2022-23' },
 ];
 
 const NavigationBar = props => {
