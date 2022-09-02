@@ -26,7 +26,7 @@ const StoryItem = props => {
     <>
     <div className="m-2">
       <div className='flex gap-2'>
-        <Image src={'/story.jpg'} width={60} height={60} />
+        <Image src={'/story.jpg'} width={60} height={60} alt={"story"} />
         <p className='truncate-5 text-xs w-3/4 hover:underline'>Artwork by Ghulfam Ali Khan, from Mechatronics and Control Engineering Department, Session 20, UET Lahore (Faisalabad Campus).</p>
       </div>
       <p className="tag mt-2 pl-1 text-gray-900">Campus Art</p>

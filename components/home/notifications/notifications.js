@@ -64,7 +64,7 @@ const Post = () => {
           <h4 className="font-semibold">Postgraduate Admissions 2022</h4>
           <div className="my-2 flex gap-2">
             <div className='w-1/4 overflow-hidden'>
-              <Image src={'/news-2.jpg'} width={100} height={75} layout={'responsive'} />
+              <Image src={'/news-2.jpg'} width={100} alt={"News"} height={75} layout={'responsive'} />
             </div>
             <p className="truncate-5 text-xs w-3/4 hover:underline">
               It is informed to all concerned that the test result of the

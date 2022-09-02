@@ -41,7 +41,7 @@ const FeaturedVideo = () => {
         <p className="text-sm truncate-3 hover:underline">
           UET Tribune along with its Advisor and President concludes the
           successful event and pays a token of gratitude to worthy Vice
-          Chancellor Prof. Dr. Syed Mansoor Sarwar for encouraging students'
+          Chancellor Prof. Dr. Syed Mansoor Sarwar for encouraging students &apos;
           societies to organize such well appreciated competitions and training
           sessions, Director Students Affairs Prof Dr. Asif Ali Qaiser for
           leading us and Registrar Mr. Muhammad Asif for such consistent support
